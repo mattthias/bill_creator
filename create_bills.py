@@ -63,7 +63,7 @@ class Order(object):
 
         '''
 
-        if self.box in ["Monatsabo", "Probierbox"]:
+        if self.box:
             return True
         else:
             return False
